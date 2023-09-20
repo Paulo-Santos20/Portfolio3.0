@@ -3,8 +3,8 @@ import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import chsclassImg from "@/public/chsclass.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import chsImg from "@/public/chs_responsive.png";
+import lojaImg from "@/public/loja_virtual2.png";
 
 
 export const links = [
@@ -66,44 +66,44 @@ export const projectsData = [
     title: "Site de Treinamento",
     description:
       "Projeto no qual estou trabalhando até o momento, onde facilitaria todo o treinamento realizado através de videos.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "Bootstrap", "Styled", "Firebase", "API", "Bibliotecas"],
     imageUrl: chsclassImg,
     projectUrl: "https://ch-sclass.vercel.app", 
   },
   {
-    title: "rmtDev",
+    title: "Site Corporativo",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Primeiro projeto criado para a CHS, onde através de mockups, criei o site corporativo que representa a cara da empresa.",
+    tags: ["JavaScript", "Jquery", "PHP", "API", "Bibliotecas"],
+    imageUrl: chsImg,
+    projectUrl: "https://site-chs.vercel.app",
   },
   {
-    title: "Word Analytics",
+    title: "Loja Virtual",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Primeiro mockup feito no Figma antes de começar o projeto, após o projeto e implementado, aprovado pelo cliente.",
+    tags: ["Javascript", "Bootstrap", "Stripe", "API", "Biblioteca"],
+    imageUrl: lojaImg,
+    projectUrl: "https://loja-virtual-coral.vercel.app",
   },
 ] as const;
 
 export const skillsData = [
+  "React",
+  "JavaScript",
+  "Next.js",
   "HTML",
   "CSS",
-  "JavaScript",
-  "TypeScript",
-  "React",
-  "Next.js",
-  "Node.js",
-  "Git",
+  "Bootstrap",
   "Tailwind",
+  "Styled Components" ,
+  "Git",
+  "GitHub",  
   "Prisma",
-  "MongoDB",
-  "Redux",
-  "GraphQL",
-  "Apollo",
+  "Firebase",   
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
+  "API",
+  "PHP",
+  "Figma",
 ] as const;

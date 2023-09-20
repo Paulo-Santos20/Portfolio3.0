@@ -41,8 +41,8 @@ export default function Project({
             href={projectUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="m-3 px-3 py-1 border border-gray-200 rounded-full text-white-200 flex items-center hover:underline"
-          >
+            className="m-3 px-3 py-1 border-2 border-black rounded-full text-black-200 flex items-center hover:underline"
+            >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"
