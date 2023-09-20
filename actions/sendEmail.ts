@@ -14,19 +14,19 @@ export const sendEmail = async (formData: FormData) => {
   // simple server-side validation
   if (!validateString(senderEmail, 500)) {
     return {
-      error: "Invalid sender email",
+      error: "Email Invalido",
     };
   }
   if (!validateString(message, 5000)) {
     return {
-      error: "Invalid message",
+      error: "Mensagem Invalida",
     };
   }
 
   let data;
   try {
     data = await resend.emails.send({
-      from: "Contact Form <onboarding@resend.dev>",
+      from: "Contato do Portfolio <onboarding@resend.dev>",
       to: "paulo_santos20@outlook.com.br",
       subject: "Mensagem enviada",
       reply_to: senderEmail,
