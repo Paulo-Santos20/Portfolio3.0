@@ -4,8 +4,9 @@ import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
 import chsclassImg from "@/public/chsclass.png";
 import chsImg from "@/public/chs_responsive.png";
-import lojaImg from "@/public/loja_virtual2.png";
-
+import lojaImg from "@/public/loja_virtual.png";
+import chsclassImg2 from "@/public/chsclass2.png";
+import adminImg from "@/public/admin.png";
 
 export const links = [
   {
@@ -63,10 +64,18 @@ export const experiencesData = [
 
 export const projectsData = [
   {
+    title: "Treinamento(Oficial)",
+    description:
+      "Permite a monitorazação do que foi visto e divide o curso em módulos para simplificar para o colaborador.",
+    tags: ["React","Next", "Tailwind","API", "Prisma","MySQL","Stripe"],
+    imageUrl: chsclassImg2,
+    projectUrl: "https://chs-curso.vercel.app", 
+  },
+  {
     title: "Site de Treinamento",
     description:
-      "Projeto no qual estou trabalhando até o momento, onde facilitaria todo o treinamento realizado através de videos.",
-    tags: ["React", "Bootstrap", "Styled", "Firebase", "API", "Bibliotecas"],
+      "Facilitaria todo o treinamento realizado através de videos, onde todos novos colaboradores poderiam assistir.",
+    tags: ["React","Express", "Bootstrap", "Styled", "Firebase", "Player"],
     imageUrl: chsclassImg,
     projectUrl: "https://ch-sclass.vercel.app", 
   },
@@ -79,12 +88,20 @@ export const projectsData = [
     projectUrl: "https://site-chs.vercel.app",
   },
   {
-    title: "Loja Virtual",
+    title: "Loja Virtual(Admin)",
     description:
-      "Primeiro mockup feito no Figma antes de começar o projeto, após o projeto e implementado, aprovado pelo cliente.",
-    tags: ["Javascript", "Bootstrap", "Stripe", "API", "Biblioteca"],
+      "Simplifica a personalização da loja, eliminando a intervenção direta no código proporcionando controle total e flexibilidade.",
+    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "Mux", ],
+    imageUrl: adminImg,
+    projectUrl: "https://ecommerce-dashboard1.vercel.app",
+  },
+  {
+    title: "Loja Virtual(Store)",
+    description:
+      "Loja virtual, controlada pelo painel administrador.",
+    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "shadcn/ui",],
     imageUrl: lojaImg,
-    projectUrl: "https://loja-virtual-coral.vercel.app",
+    projectUrl: "https://ecommerce-store1.vercel.app",
   },
 ] as const;
 
@@ -92,18 +109,25 @@ export const skillsData = [
   "React",
   "JavaScript",
   "Next.js",
-  "HTML",
+  "Express.js",
+  "Tailwind",  
   "CSS",
   "Bootstrap",
-  "Tailwind",
+  "HTML",
   "Styled Components" ,
   "Git",
   "GitHub",  
   "Prisma",
+  "Stripe",
+  "Clerk Provider",
+  "Mux",
   "Firebase",   
-  "Express",
+  "MySQL",  
   "Framer Motion",
   "API",
   "PHP",
   "Figma",
+  "Shadcn/ui",
+  "Radix/ui",
+  "Máquina Virtual",
 ] as const;
