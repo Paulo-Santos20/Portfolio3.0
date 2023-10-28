@@ -72,7 +72,7 @@ export const projectsData = [
     projectUrl: "https://chs-curso.vercel.app", 
   },
   {
-    title: "Site de Treinamento",
+    title: "Treinamento",
     description:
       "Facilitaria todo o treinamento realizado através de videos, onde todos novos colaboradores poderiam assistir.",
     tags: ["React","Express", "Bootstrap", "Styled", "Firebase", "Player"],
@@ -80,7 +80,7 @@ export const projectsData = [
     projectUrl: "https://ch-sclass.vercel.app", 
   },
   {
-    title: "Site Corporativo",
+    title: "Corporativo",
     description:
       "Primeiro projeto criado para a CHS, onde através de mockups, criei o site corporativo que representa a cara da empresa.",
     tags: ["JavaScript", "Jquery", "PHP", "API", "Bibliotecas"],
@@ -96,7 +96,7 @@ export const projectsData = [
     projectUrl: "https://ecommerce-dashboard1.vercel.app",
   },
   {
-    title: "Loja Virtual(Store)",
+    title: "Loja Virtual(Loja)",
     description:
       "Loja virtual, controlada pelo painel administrador.",
     tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "shadcn/ui",],

@@ -11,7 +11,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Paulo | Portfolio",
-  description: "Paulo é um desenvolvedor Web, com foco na carrera Full Stack.",
+  description: "Paulo é um desenvolvedor Web, com foco na utilização do React e objetivo de se tornar Full Stack Sênior.",
 };
 
 export default function RootLayout({
