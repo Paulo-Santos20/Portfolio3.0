@@ -19,24 +19,23 @@ export default function About() {
     >
       <SectionHeading>Sobre Mim</SectionHeading>
       <p className="mb-3">
-        Sou estudante de <span className="font-medium">Análise e Desenvolvimento de Sistemas</span> e atualmente atuo
-        como <span className="underline">Desenvolvedor Web</span> na CHS. Minhas habilidades em React, Express, HTML, CSS e
-        JavaScript, junto com Banco de dados me permitem criar sites corporativos de alta qualidade e
-        minha experiência em tecnologias Back-End me dá uma visão completa do
-        desenvolvimento de aplicações web. Estou sempre em busca de
-        aprimoramento e aprendizado para me manter atualizado e entregar
-        projetos ainda mais incríveis. Se você está procurando um profissional
-        comprometido e apaixonado por tecnologia, estou pronto para fazer a
-        diferença na sua equipe!
+        Sou estudante de Análise e Desenvolvimento de Sistemas e atualmente atuo
+        como Desenvolvedor Full Stack na Compass UOL. Tenho experiência como
+        Desenvolvedor Web na CHS, onde desenvolvi habilidades em React, Express,
+        HTML, CSS, JavaScript e bancos de dados. Meu conhecimento em tecnologias
+        Back-End me permite ter uma visão completa do desenvolvimento de
+        aplicações web. Estou sempre buscando aprimorar minhas habilidades para
+        entregar projetos de alta qualidade.
       </p>
 
       <p>
-        <span className="italic">Quando não estou programando</span>, gosto de jogar
-        videogames e assistir filmes. Também aprecio{" "}
+        <span className="italic">Quando não estou programando</span>, gosto de
+        jogar videogames e assistir filmes. Também aprecio{" "}
         <span className="font-medium">aprender coisas novas</span>. Atualmente,
         estou aprendendo sobre{" "}
-        <span className="font-medium">todo o processo da Engenharia de Software.</span>
-        
+        <span className="font-medium">
+          todo o processo de Desenvolvimento de um software.
+        </span>
       </p>
     </motion.section>
   );
