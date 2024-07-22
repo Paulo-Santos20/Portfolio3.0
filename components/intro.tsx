@@ -9,7 +9,8 @@ import { HiDownload } from "react-icons/hi";
 import { FaGithubSquare } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
-import Eu from "@/public/EU.jpg"
+import Eu from "@/public/perfil.jpeg";
+
 
 export default function Intro() {
   const { ref } = useSectionInView("Início", 0.5);
@@ -33,10 +34,10 @@ export default function Intro() {
           >
             <Image
               src={Eu}
-              alt="Paulo portrait"
+              alt="Paulo foto"
               width="192"
               height="192"
-              quality="95"
+              quality="95"              
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />

@@ -37,28 +37,28 @@ export const links = [
 
 export const experiencesData = [
   {
+    title: "Estágio FullStack - UOL",
+    location: "Remoto",
+    description:
+      "Estágio na CompassUOL, onde desenvolvi habilidades front e back-end.",
+    icon: React.createElement(CgWorkAlt),
+    date: " 2024 - Atualmente",
+  },
+  {
+    title: "Desenvolvedor FrontEnd - CHS",
+    location: "Recife, PE",
+    description:
+      "Comecei a trabalhar na área desenvolvendo sites, onde criei e dei manuntenção nos sites da empresa.",
+    icon: React.createElement(CgWorkAlt),
+    date: " 2022 - 2024",
+  },
+  {
     title: "Empresa Própria",
     location: "Olinda, PE",
     description:
       "Criei minha própria empresa que oferecia serviços de DogWalk, PetSitter e Hospedagem.",
     icon: React.createElement(LuGraduationCap),
     date: "2017-2020",
-  },
-  {
-    title: "Desenvolvedor FrontEnd",
-    location: "Recife, PE",
-    description:
-      "Comecei a trabalhar na área desenvolvendo sites, onde criei e dei manuntenção nos sites da empresa.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2022 - Atualmente",
-  },
-  {
-    title: "Desenvolvedor FrontEnd Autônomo",
-    location: "Olinda, PE",
-    description:
-      "Com a minha experiência na empresa, comecei a criar sites e soluções para pessoas, como minha loja virtual.",
-    icon: React.createElement(FaReact),
-    date: "2022 - Atualmente",
   },
 ] as const;
 
@@ -67,17 +67,17 @@ export const projectsData = [
     title: "Treinamento(Oficial)",
     description:
       "Permite a monitorazação do que foi visto e divide o curso em módulos para simplificar para o colaborador.",
-    tags: ["React","Next", "Tailwind","API", "Prisma","MySQL","Stripe"],
+    tags: ["React", "Next", "Tailwind", "API", "Prisma", "MySQL", "Stripe"],
     imageUrl: chsclassImg2,
-    projectUrl: "https://chs-curso.vercel.app", 
+    projectUrl: "https://chs-curso.vercel.app",
   },
   {
     title: "Treinamento",
     description:
       "Facilitaria todo o treinamento realizado através de videos, onde todos novos colaboradores poderiam assistir.",
-    tags: ["React","Express", "Bootstrap", "Styled", "Firebase", "Player"],
+    tags: ["React", "Express", "Bootstrap", "Styled", "Firebase", "Player"],
     imageUrl: chsclassImg,
-    projectUrl: "https://ch-sclass.vercel.app", 
+    projectUrl: "https://ch-sclass.vercel.app",
   },
   {
     title: "Corporativo",
@@ -91,15 +91,14 @@ export const projectsData = [
     title: "Loja Virtual(Admin)",
     description:
       "Simplifica a personalização da loja, eliminando a intervenção direta no código proporcionando controle total e flexibilidade.",
-    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "Mux", ],
+    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "Mux"],
     imageUrl: adminImg,
     projectUrl: "https://ecommerce-dashboard1.vercel.app",
   },
   {
     title: "Loja Virtual(Loja)",
-    description:
-      "Loja virtual, controlada pelo painel administrador.",
-    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "shadcn/ui",],
+    description: "Loja virtual, controlada pelo painel administrador.",
+    tags: ["React", "Next", "MySQL", "Stripe", "Tailwind", "shadcn/ui"],
     imageUrl: lojaImg,
     projectUrl: "https://ecommerce-store1.vercel.app",
   },
@@ -111,19 +110,19 @@ export const skillsData = [
   "TypeScript",
   "Next.js",
   "Express.js",
-  "Tailwind",  
+  "Tailwind",
   "CSS",
   "Bootstrap",
   "HTML",
-  "Styled Components" ,
+  "Styled Components",
   "Git",
-  "GitHub",  
+  "GitHub",
   "Prisma",
   "Stripe",
   "Clerk Provider",
   "Mux",
-  "Firebase",   
-  "MySQL",  
+  "Firebase",
+  "MySQL",
   "Framer Motion",
   "API",
   "PHP",
