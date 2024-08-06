@@ -11,7 +11,6 @@ import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 import Eu from "@/public/perfil.jpeg";
 
-
 export default function Intro() {
   const { ref } = useSectionInView("Início", 0.5);
   const { setActiveSection, setTimeOfLastClick } = useActiveSectionContext();
@@ -37,11 +36,10 @@ export default function Intro() {
               alt="Paulo foto"
               width="192"
               height="192"
-              quality="95"           
+              quality="95"
               priority={true}
               className="h-24 w-24 rounded-full object-cover border-[0.35rem] border-white shadow-xl"
             />
-            
           </motion.div>
 
           <motion.span
@@ -66,9 +64,10 @@ export default function Intro() {
         animate={{ opacity: 1, y: 0 }}
       >
         <span className="font-bold">Olá, me chamo Paulo!</span> Eu sou um{" "}
-        <span className="font-bold">Desenvolvedor Web.</span> Me divirto{" "}
-        <span className="font-bold">criando sites.</span> Meu foco é
-        criar <span className="italic"></span>{" "}
+        <span className="font-bold">Desenvolvedor.</span> Me divirto{" "}
+        <span className="font-bold">criando.</span>
+        <br />
+        Meu foco é criar <span className="italic"></span>{" "}
         <span className="underline">Soluções</span>.
       </motion.h1>
 
@@ -82,7 +81,7 @@ export default function Intro() {
       >
         <Link
           href="#contact"
-          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 hover:bg-gray-950 active:scale-105 transition"
+          className="group bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-80 hover:bg-gray-950 active:scale-105 transition"
           onClick={() => {
             setActiveSection("Contato");
             setTimeOfLastClick(Date.now());
@@ -93,8 +92,8 @@ export default function Intro() {
         </Link>
 
         <a
-          className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/CV.pdf"
+          className="group bg-white m-2 px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
+          href="https://www.canva.com/design/DAFgi7GvfV0/cllDdlp1IduVDL-AGfjing/view?utm_content=DAFgi7GvfV0&utm_campaign=designshare&utm_medium=link&utm_source=editor" target="_blank"
           download
         >
           Curriculo{" "}
@@ -107,7 +106,7 @@ export default function Intro() {
           target="_blank"
           rel="noopener noreferrer"
           aria-label="LinkedIn de Paulo dos Santos"
-          >
+        >
           <BsLinkedin />
         </a>
 

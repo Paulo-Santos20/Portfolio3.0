@@ -24,13 +24,13 @@ export default function ContactFormEmail({
   return (
     <Html>
       <Head />
-      <Preview>Nova mensagem no seu Site Portfolio</Preview>
+      <Preview>Nova mensagem no seu Site</Preview>
       <Tailwind>
         <Body className="bg-gray-100 text-black">
           <Container>
             <Section className="bg-white borderBlack my-10 px-10 py-4 rounded-md">
               <Heading className="leading-tight">
-              Você recebeu a seguinte mensagem do formulário de contato
+              Você recebeu a seguinte mensagem do formulário de contato:
               </Heading>
               <Text>{message}</Text>
               <Hr />
